@@ -12,6 +12,6 @@ namespace Cubanos.BusinessEntity
         public Int32 InscripcionId { get; set; }
         public Inscripcion Inscripcion { get; set; }        
         public Decimal Monto { get; set; }
-        public Decimal FechaPago { get; set; }
+        public DateTime FechaPago { get; set; }
     }
 }

@@ -8,3 +8,8 @@ C:\Users\Jonathan\Desktop\CubanosGym\Cubanos.BusinessEntity\bin\Debug\Cubanos.Bu
 C:\Users\Jonathan\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.csprojResolveAssemblyReference.cache
 C:\Users\Jonathan\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.dll
 C:\Users\Jonathan\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.pdb
+C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\bin\Debug\Cubanos.BusinessEntity.dll
+C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\bin\Debug\Cubanos.BusinessEntity.pdb
+C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.dll
+C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.pdb

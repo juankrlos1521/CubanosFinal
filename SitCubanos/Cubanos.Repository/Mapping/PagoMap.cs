@@ -21,7 +21,7 @@ namespace Cubanos.Repository.Mapping
                 .HasPrecision(9, 2)
                 .IsRequired();
 
-            this.Property(p => p.FechaPago)
+            this.Property(p => p.FechaPago)                
                 .IsRequired();
 
             this.ToTable("Pago");

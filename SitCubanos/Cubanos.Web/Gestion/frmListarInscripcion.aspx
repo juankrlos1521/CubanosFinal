@@ -51,7 +51,10 @@
                 <td><%# Item.Cliente.ApellidoPaterno %> <%# Item.Cliente.ApellidoMaterno %>, <%# Item.Cliente.Nombres %> </td>               
                 <td>
                     <%--<asp:CheckBox ID="chbAsistencia" runat="server" AutoPostBack="true" OnCheckedChanged="asignarAsistencia_Check" />--%>
-                    <asp:CheckBox ID="ChkSelectItem" runat="server" Text='<%#Eval("ID") %>'  />
+                    <a href="frmRegistrarCliente.aspx?acc=eliminar&id=<%# Item.Id %>"
+                            onclick="return confirm('Desea eliminar a <%# Item.ApellidoPaterno %> <%# Item.ApellidoMaterno %>, <%# Item.Nombres %>')">
+                            Eliminar
+                        </a>
                 </td>
                                 
             </tr>
