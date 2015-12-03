@@ -31,12 +31,17 @@ namespace Cubanos.Web.Gestion
 
             var acc = Request.QueryString["acc"];
 
-            //if (acc != null && acc == "eliminar" && id != null)
-            //{
-            //    var idCurso = Int32.Parse(id.ToString());
-            //    _cubanosGymService.RemoveCurso(idCurso);
-            //    Response.Redirect("Cursos.aspx");
-            //}
+
+            this.lvInscripcion.DataBind();
+            int suma = 0;
+            for (int i = 0; i < lvInscripcion.Items.Count; i++)
+            {
+                suma += Convert.ToInt32(lvInscripcion.DataKeys[i].Values["Id"]);
+                _cubanosGymService.RegisAsistencia(1, Convert.ToInt32(lvInscripcion.DataKeys[i].Values["Id"]), true);
+            }
+
+            txtSubTotal.Text = suma.ToString();
+
 
         }
         public IEnumerable<Inscripcion> Listarinscripcion()

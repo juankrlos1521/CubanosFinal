@@ -97,6 +97,7 @@
         </asp:ListView>
     </div>
 
-
+        <br/>
+        <asp:TextBox runat="server" ID="txtSubTotal" Enabled="False" Width="4em"/>
 
 </asp:Content>
