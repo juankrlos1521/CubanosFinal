@@ -50,6 +50,37 @@ namespace Cubanos.Web.Gestion
         {
              
         }
-        
+
+        protected void lvDetalleInscripcion_ItemCommand(object sender, ListViewCommandEventArgs e)
+        {
+            if (e.CommandName == "hola")
+            {
+                var idHabitacion = Int32.Parse(e.CommandArgument.ToString());
+
+                _cubanosGymService.RegisAsistencia(1, idHabitacion, true);
+
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + " Guardardo : " + idHabitacion + "');", true);
+                //var idHabitacion = Int32.Parse(e.CommandArgument.ToString());
+
+                //var reserva = Cache.Get("reserva") as Reserva;
+
+                //var existe = reserva.DetalleReserva.SingleOrDefault(d => d.IdHabitacion.Equals(idHabitacion));
+
+                //if (existe != null)
+                //{
+                //    reserva.DetalleReserva.Remove(existe);
+
+                //    CalcularTotales(reserva);
+
+                //    lvDetalleReserva.DataSource = reserva.DetalleReserva;
+                //    lvDetalleReserva.DataBind();
+
+                //    Cache.Insert("reserva", reserva);
+                //}
+
+            }
+        }
+
+
     }
 }

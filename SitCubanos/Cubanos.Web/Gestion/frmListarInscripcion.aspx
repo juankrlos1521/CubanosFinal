@@ -25,41 +25,41 @@
     </div>--%>
 
 <br/>
+    <div style="padding-left:50px; padding-right:50px">
+        <asp:ListView runat="server" 
+            ID="lvInscripcion"
+            DataKeyNames="Id"
+            ItemType="Cubanos.BusinessEntity.Inscripcion"    
+            OnItemCommand="lvDetalleInscripcion_ItemCommand"
+            SelectMethod="Listarinscripcion">
 
-<asp:ListView runat="server" 
-    ID="lvInscripcion"
-    DataKeyNames="Id"
-    ItemType="Cubanos.BusinessEntity.Inscripcion"    
-    SelectMethod="Listarinscripcion">
-
-    <LayoutTemplate>
-        <table class="table table-striped table-condensed table-hover">
-            <thead>            
-                <tr>                    
-                    <th>Nombre Completo</th>                                      
-                    <th>Asistencia</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr id="itemPlaceholder" runat="server"/>
-            </tbody>
-        </table>
-    </LayoutTemplate>
-    <ItemTemplate>
-            <tr>
-                
-                <td><%# Item.Cliente.ApellidoPaterno %> <%# Item.Cliente.ApellidoMaterno %>, <%# Item.Cliente.Nombres %> </td>               
-                <td>
-                    <%--<asp:CheckBox ID="chbAsistencia" runat="server" AutoPostBack="true" OnCheckedChanged="asignarAsistencia_Check" />--%>
-                    <a href="frmRegistrarCliente.aspx?acc=eliminar&id=<%# Item.Id %>"
-                            onclick="return confirm('Desea eliminar a <%# Item.ApellidoPaterno %> <%# Item.ApellidoMaterno %>, <%# Item.Nombres %>')">
-                            Eliminar
-                        </a>
-                </td>
+            <LayoutTemplate>
+                <table class="table table-striped table-condensed table-hover">
+                    <thead>            
+                        <tr>       
+                            <th>Id</th>                                            
+                            <th>Nombre Completo</th>                                      
+                            <th>Asistencia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="itemPlaceholder" runat="server"/>
+                    </tbody>
+                </table>
+            </LayoutTemplate>
+            <ItemTemplate>
+                    <tr>
+                        <td><%# Item.Id %> </td>                             
+                        <td><%# Item.Cliente.ApellidoPaterno %> <%# Item.Cliente.ApellidoMaterno %>, <%# Item.Cliente.Nombres %> </td>               
+                        <td>
+                            <asp:Button runat="server" Text="Hola" ID="btnHola" 
+                                CommandName="hola"
+                                CommandArgument='<%# Eval("Id")%>'/>
+                        </td>
                                 
-            </tr>
-    </ItemTemplate>
-</asp:ListView>
-        
-     </div>
+                    </tr>
+            </ItemTemplate>
+        </asp:ListView>
+    </div>        
+</div>
 </asp:Content>
