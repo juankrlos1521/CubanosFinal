@@ -1,0 +1,36 @@
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.Service.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.Service.pdb
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.BusinessEntity.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.Repository.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\EntityFramework.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.BusinessEntity.pdb
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.Repository.pdb
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\EntityFramework.xml
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\bin\Debug\es\EntityFramework.resources.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\obj\Debug\Cubanos.Service.csprojResolveAssemblyReference.cache
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\obj\Debug\Cubanos.Service.dll
+C:\Users\Freddy\documents\visual studio 2013\Projects\CubanosGym\Cubanos.Service\obj\Debug\Cubanos.Service.pdb
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\obj\Debug\Cubanos.Service.csprojResolveAssemblyReference.cache
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\obj\Debug\Cubanos.Service.dll
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\obj\Debug\Cubanos.Service.pdb
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.Service.dll
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.Service.pdb
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.BusinessEntity.dll
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.Repository.dll
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\EntityFramework.dll
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.BusinessEntity.pdb
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Cubanos.Repository.pdb
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\EntityFramework.xml
+C:\Users\Freddy\Desktop\CubanosGym\Cubanos.Service\bin\Debug\es\EntityFramework.resources.dll
