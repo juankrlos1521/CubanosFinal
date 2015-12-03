@@ -16,10 +16,10 @@ namespace Cubanos.BusinessEntity
         public DateTime FechaRegistro { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
-        public Decimal Pago { get; set; }
+        //public Decimal Pago { get; set; }
         //public Int32 NroCuotas { get; set; }
         public Boolean Estado { get; set; }
-        public List<Pago> Pagos { get; set; }
+        public List<Pago> Pago { get; set; }
         public List<Asistencia> Asistencia { get; set; }
     }
 }

@@ -15,8 +15,6 @@ namespace Cubanos.Repository.Mapping
         {
             this.HasKey(a => a.Id);
 
-            this.Property(a => a.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
-
             this.Property(a => a.Fecha)
                 .IsRequired();
             this.Property(a => a.Estado)

@@ -18,7 +18,6 @@ namespace Cubanos.Repository.Mapping
             this.Property(i => i.FechaRegistro).IsRequired();
             this.Property(i => i.FechaInicio).IsRequired();
             this.Property(i => i.FechaFin).IsRequired();
-            this.Property(i => i.Pago).HasPrecision(8, 2).IsRequired();           
             this.Property(i => i.Estado).HasColumnType("bit").IsRequired();
             this.HasRequired(i => i.Cliente).WithMany(c=>c.Inscripciones).HasForeignKey(i=>i.ClienteId).WillCascadeOnDelete(false);
             this.HasRequired(i => i.Curso).WithMany().HasForeignKey(i => i.CursoId).WillCascadeOnDelete(false);

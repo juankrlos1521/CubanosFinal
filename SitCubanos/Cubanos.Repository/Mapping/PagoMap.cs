@@ -21,14 +21,17 @@ namespace Cubanos.Repository.Mapping
                 .HasPrecision(9, 2)
                 .IsRequired();
 
+            this.Property(p => p.FechaVencimiento)
+                .IsOptional();
+
             this.Property(p => p.FechaPago)                
-                .IsRequired();
+                .IsOptional();
 
             this.ToTable("Pago");
 
-            HasRequired(p => p.Inscripcion)
-              .WithMany(p => p.Pagos)
-              .HasForeignKey(p => p.InscripcionId);
+            HasRequired(cp => cp.Inscripcion)
+               .WithMany(cp => cp.Pago)
+               .HasForeignKey(cp => cp.InscripcionId);
 
         }
     }
