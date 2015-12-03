@@ -173,6 +173,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="Clientes\frmListaPlan.aspx" />
+    <Content Include="Clientes\frmListarAsistencias.aspx" />
     <Content Include="Clientes\frmListarRutina.aspx" />
     <Content Include="Clientes\frmListrarEmpleado.aspx" />
     <Content Include="Clientes\frmRegistrarCliente.aspx" />
@@ -488,6 +489,13 @@
     </Compile>
     <Compile Include="Clientes\frmListaPlan.aspx.designer.cs">
       <DependentUpon>frmListaPlan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes\frmListarAsistencias.aspx.cs">
+      <DependentUpon>frmListarAsistencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clientes\frmListarAsistencias.aspx.designer.cs">
+      <DependentUpon>frmListarAsistencias.aspx</DependentUpon>
     </Compile>
     <Compile Include="Clientes\frmListarRutina.aspx.cs">
       <DependentUpon>frmListarRutina.aspx</DependentUpon>

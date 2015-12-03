@@ -39,6 +39,8 @@ namespace Cubanos.Service
 
         //Asistencia
         void RegisAsistencia(Int32 AsisId, int incripcionId, bool asignado);
+        IEnumerable<Asistencia> ListarAsistencias(Int32 clienteId);
+        IEnumerable<Asistencia> ListarAsistenciasPorCurso(Int32 cursoId);
         //.........................................................
 
     }

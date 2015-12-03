@@ -46,6 +46,13 @@ namespace Cubanos.Web.Gestion
             return _cubanosGymService.ListarInscripcion(x);
 
         }
+        public IEnumerable<Asistencia> ListarAsistenciasPorCurso()
+        {
+            int x = Convert.ToInt32(Request["listClientes"]);
+
+            return _cubanosGymService.ListarAsistenciasPorCurso(x);
+
+        }
         protected void asignarAsistencia_Check(object sender, EventArgs e)
         {
              

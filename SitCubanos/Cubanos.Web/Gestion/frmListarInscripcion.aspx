@@ -62,4 +62,41 @@
         </asp:ListView>
     </div>        
 </div>
+    
+
+
+<div style="padding-left:50px; padding-right:50px">
+        <asp:ListView runat="server" 
+            ID="lvAsistencia"
+            DataKeyNames="Id"
+            ItemType="Cubanos.BusinessEntity.Asistencia"                
+            SelectMethod="ListarAsistenciasPorCurso">
+
+            <LayoutTemplate>
+                <table class="table table-striped table-condensed table-hover">
+                    <thead>            
+                        <tr>       
+                            <th>Id</th>                                            
+                            <th>Nombre Completo</th>                                      
+                            <th>Asistencia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="itemPlaceholder" runat="server"/>
+                    </tbody>
+                </table>
+            </LayoutTemplate>
+            <ItemTemplate>
+                    <tr>
+                        <td><%# Item.Id %> </td>                             
+                        <td><%# Item.Inscripcion.Cliente.ApellidoPaterno %> <%# Item.Inscripcion.Cliente.ApellidoMaterno %>, <%# Item.Inscripcion.Cliente.Nombres %> </td>               
+                        
+                                
+                    </tr>
+            </ItemTemplate>
+        </asp:ListView>
+    </div>
+
+
+
 </asp:Content>

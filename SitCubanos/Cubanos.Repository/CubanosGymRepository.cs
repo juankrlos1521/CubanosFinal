@@ -105,6 +105,18 @@ namespace Cubanos.Repository
             Context.Asistencias.Add(result);
             Context.SaveChanges();
         }
+        //
+        //Asistencia
+        public IEnumerable<Asistencia> ListarAsistencias(Int32 clienteId)
+        {
+            return Context.Asistencias.Include("Inscripcion").
+                Where(x => (x.Inscripcion.ClienteId == clienteId));
+        }
+
+        public IEnumerable<Asistencia> ListarAsistenciasPorCurso(int cursoId)
+        {
+            return Context.Asistencias.Where(x => (x.Inscripcion.CursoId == cursoId));
+        }
         //.........................................................................
 
         //Rutina
@@ -114,29 +126,7 @@ namespace Cubanos.Repository
         //}
         //.........................................................................
 
-        //asistencia
-        //public void RegisAsistencia(Int32 AsisId, int incripcionId, bool asignado )
-        //{
-        //    //Articulo _articulo = entities.Articulos.First(x => x.Id == idArticulo);
-        //    //_articulo.Asignado = asignado;
-        //    ////entities.SaveChanges();
-        //    //if (Id != null)
-        //    //{
-        //    //    Articulo _articulo = entities.Articulos.First(x => x.Id == Idxx);
-        //    //    _articulo.Asignado = asignado;
-        //    //    _cubanosGymRepository.SaveChanges();
 
-        //    //}
-        //    var result = new Asistencia()
-        //    {
-        //        InscripcionId = incripcionId,
-        //        Estado = asignado,
-        //        Fecha = DateTime.Now
-        //    };
-
-        //    Context.Asistencias.Add(result);
-        //    Context.SaveChanges();
-        //}
 
 
     }

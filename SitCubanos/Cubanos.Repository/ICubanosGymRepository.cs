@@ -39,7 +39,8 @@ namespace Cubanos.Repository
         //.........................................................
         //asistencia
         void RegisAsistencia(Int32 AsisId, int incripcionId, bool asignado);
-        //void RegisAsistencia(Asistencia asistencia);
+        IEnumerable<Asistencia> ListarAsistencias(Int32 clienteId);
+        IEnumerable<Asistencia> ListarAsistenciasPorCurso(Int32 cursoId);
         //.........................................................
     }
 }

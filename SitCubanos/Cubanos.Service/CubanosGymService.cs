@@ -83,6 +83,16 @@ namespace Cubanos.Service
         {
             _cubanosGymRepository.RegisAsistencia(AsisId, incripcionId, asignado);
         }
+
+        public IEnumerable<Asistencia> ListarAsistencias(Int32 clienteId)
+        {
+            return _cubanosGymRepository.ListarAsistencias(clienteId);
+        }
+
+        public IEnumerable<Asistencia> ListarAsistenciasPorCurso(int cursoId)
+        {
+            return _cubanosGymRepository.ListarAsistenciasPorCurso(cursoId);
+        }
         //............................................................
 
         //Rutina

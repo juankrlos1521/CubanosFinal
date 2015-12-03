@@ -43,7 +43,8 @@
                     <th>Telefono</th>
                     <th>Edad</th>                    
                     <th>Estado</th>
-                    <th>Plan de Ejercicios</th>                    
+                    <th>Plan de Ejercicios</th>
+                    <th>Asistencias</th>    
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -63,7 +64,9 @@
                 <td><%# Convert.ToInt32(Convert.ToDecimal(DateTime.Now.ToString("yyyy.MMdd")) - Convert.ToDecimal(Item.FechaNacimiento.ToString("yyyy.MMdd"))) %></td>                
                 <td><%# (Item.Estado == true) ? "Activo" : "Inactivo" %></td>                
                 <td>plan </td>
+                <td><a href="frmListarAsistencias.aspx?listAsist=<%# Item.Id %>"class="btn btn-warning" > <span class="glyphicon glyphicon-list" aria-hidden="true"></span></a> </td>
                 <td>
+                    
                     <a href="frmRegistrarCliente.aspx?acc=editar&id=<%# Item.Id %>">Editar</a>
                     <a href="frmRegistrarCliente.aspx?acc=eliminar&id=<%# Item.Id %>"
                             onclick="return confirm('Desea eliminar a <%# Item.ApellidoPaterno %> <%# Item.ApellidoMaterno %>, <%# Item.Nombres %>')">
