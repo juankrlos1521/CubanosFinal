@@ -51,7 +51,7 @@
             <tr>
                 <%--<td><%# Item.Inscripcion.Curso.Nombre %></td>--%>
                 <td><%# Item.Fecha %></td>
-                <td><%# (Item.Estado == true) ? "Asistio" : "Falto" %></td>               
+                <td><%# (Item.Estado == true) ?"<div class='text-success'><b>Asistio</b></div>" : "<div class='text-danger'><b>Ausente</b></div>" %></td>               
                 
                 
             </tr>

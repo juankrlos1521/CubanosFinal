@@ -103,6 +103,6 @@
     </div>
 
         <br/>
-        <asp:TextBox runat="server" ID="txtSubTotal" Enabled="False" Width="4em"/>
+        <asp:TextBox runat="server" ID="txtSubTotal" Visible="false" Enabled="False" Width="4em"/>
 
 </asp:Content>

@@ -64,7 +64,7 @@
                 <td><%# Convert.ToInt32(Convert.ToDecimal(DateTime.Now.ToString("yyyy.MMdd")) - Convert.ToDecimal(Item.FechaNacimiento.ToString("yyyy.MMdd"))) %></td>                
                 <td><%# (Item.Estado == true) ? "Activo" : "Inactivo" %></td>                
                 <td>plan </td>
-                <td><a href="frmListarAsistencias.aspx?listAsist=<%# Item.Id %>"class="btn btn-warning" > <span class="glyphicon glyphicon-list" aria-hidden="true"></span></a> </td>
+                <td><a href="frmListarAsistencias.aspx?listAsist=<%# Item.Id %>&name=<%# Item.ApellidoPaterno.ToUpper() %> <%# Item.ApellidoMaterno.ToUpper() %>, <%# Item.Nombres.ToUpper() %>"class="btn btn-warning" > <span class="glyphicon glyphicon-list" aria-hidden="true"></span></a> </td>
                 <td>
                     
                     <a href="frmRegistrarCliente.aspx?acc=editar&id=<%# Item.Id %>">Editar</a>

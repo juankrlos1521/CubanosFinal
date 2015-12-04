@@ -25,7 +25,7 @@ namespace Cubanos.Repository.Mapping
                 .IsOptional();
 
             this.Property(p => p.FechaPago)                
-                .IsOptional();
+                .IsRequired();
 
             this.ToTable("Pago");
 
