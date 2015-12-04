@@ -152,7 +152,11 @@ namespace Cubanos.Repository
 
 
 
+        public IEnumerable<Pago> ListarPagoss(string criterio)
+        {
+            return Context.Pagos.Include(x => x.Inscripcion).Include(x => x.Inscripcion.Cliente).Where(x => (x.Inscripcion.Cliente.Nombres.Contains(criterio) || x.Inscripcion.Cliente.ApellidoPaterno.Contains(criterio) || x.Inscripcion.Cliente.ApellidoMaterno.Contains(criterio)));
 
+        }
     }
         //...............................................................................
     

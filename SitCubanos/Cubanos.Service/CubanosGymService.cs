@@ -100,6 +100,12 @@ namespace Cubanos.Service
         }
         //............................................................
 
+        public IEnumerable<Pago> ListarPagoss(string criterio)
+        {
+            return _cubanosGymRepository.ListarPagoss(criterio);
+
+        }
+
         //Rutina
         //public IEnumerable<Rutina> ListarRutina(string criterio)
         //{

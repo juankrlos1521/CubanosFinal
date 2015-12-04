@@ -207,6 +207,7 @@
     <Content Include="Gestion\Cursos.aspx" />
     <Content Include="Gestion\frmCargo.aspx" />
     <Content Include="Gestion\frmCurso.aspx" />
+    <Content Include="Gestion\frmListarPago.aspx" />
     <Content Include="Gestion\frmRegistrarAsistencia.aspx">
       <BrowseToURL>~/Gestion/frmListarInscripcion.aspx</BrowseToURL>
     </Content>
@@ -579,6 +580,13 @@
     </Compile>
     <Compile Include="Gestion\frmCurso.aspx.designer.cs">
       <DependentUpon>frmCurso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gestion\frmListarPago.aspx.cs">
+      <DependentUpon>frmListarPago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gestion\frmListarPago.aspx.designer.cs">
+      <DependentUpon>frmListarPago.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gestion\frmRegistrarAsistencia.aspx.cs">
       <DependentUpon>frmRegistrarAsistencia.aspx</DependentUpon>

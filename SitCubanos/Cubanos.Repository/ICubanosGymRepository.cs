@@ -44,5 +44,9 @@ namespace Cubanos.Repository
         IEnumerable<Asistencia> ListarAsistencias(Int32 clienteId);
         IEnumerable<Asistencia> ListarAsistenciasPorCurso(Int32 cursoId);
         //.........................................................
+
+        IEnumerable<Pago> ListarPagoss(string criterio);
+
+        //-----------------------------------------
     }
 }

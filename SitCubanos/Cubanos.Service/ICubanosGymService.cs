@@ -45,5 +45,6 @@ namespace Cubanos.Service
         IEnumerable<Asistencia> ListarAsistenciasPorCurso(Int32 cursoId);
         //.........................................................
 
+        IEnumerable<Pago> ListarPagoss(string criterio);
     }
 }
