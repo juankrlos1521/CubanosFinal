@@ -95,19 +95,43 @@ namespace Cubanos.Repository
 
         public void RegisAsistencia(int AsisId, int incripcionId, bool asignado)
         {
-            var result = new Asistencia()
+            try
             {
-                InscripcionId = incripcionId,
-                Estado = asignado,
-                Fecha = DateTime.Now
-            };
+                Asistencia idbusca = Context.Asistencias.FirstOrDefault(c => c.Id == AsisId);
+                if (idbusca == null)
+                {
+                    var result = new Asistencia()
+                    {
+                        Id = AsisId,
+                        InscripcionId = incripcionId,
+                        Estado = asignado,
+                        Fecha = DateTime.Now
+                    };
 
-            Context.Asistencias.Add(result);
-            Context.SaveChanges();
+                    Context.Asistencias.Add(result);
+                    Context.SaveChanges();
+                }
+            }
+
+            catch
+            {
+
+            }
         }
-        //
-        //Asistencia
-        public IEnumerable<Asistencia> ListarAsistencias(Int32 clienteId)
+
+        public void UpdateAsistencia(int AsisId, bool asignado)
+        {
+            Asistencia _asistencia = Context.Asistencias.First(x => x.Id == AsisId);
+            _asistencia.Estado = asignado;
+            Context.SaveChanges();
+        
+        }
+
+
+
+    //
+    //Asistencia
+    public IEnumerable<Asistencia> ListarAsistencias(Int32 clienteId)
         {
             return Context.Asistencias.Include("Inscripcion").
                 Where(x => (x.Inscripcion.ClienteId == clienteId));

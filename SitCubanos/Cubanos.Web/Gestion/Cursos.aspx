@@ -63,7 +63,7 @@
                                 <td><%# Item.Precio %></td>
                                 <td>
                                     
-                                    <a href="frmListarInscripcion.aspx?listClientes=<%# Item.Id %>&name=<%# Item.Nombre %>"class="btn btn-warning" > <span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
+                                    <a href="frmRegistrarAsistencia.aspx?listClientes=<%# Item.Id %>&name=<%# Item.Nombre.ToUpper() %>"class="btn btn-warning" > <span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
                                     <a href="frmCurso.aspx?acc=editar&id=<%# Item.Id %>" class="btn btn-primary"><i class="icon_pencil-edit_alt"></i></a>
                                     <a href="frmCurso.aspx?acc=eliminar&id=<%# Item.Id %>" class="btn btn-danger"><i class="icon_close_alt2"></i></a>
                                 </td>

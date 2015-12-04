@@ -13,8 +13,3 @@ C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\bin\Debug\Cubanos.Busi
 C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.csprojResolveAssemblyReference.cache
 C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.dll
 C:\Users\Carlos\Desktop\CubanosGym\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.pdb
-C:\Users\Alexander\Documents\GitHub\CubanosFinal\SitCubanos\Cubanos.BusinessEntity\bin\Debug\Cubanos.BusinessEntity.dll
-C:\Users\Alexander\Documents\GitHub\CubanosFinal\SitCubanos\Cubanos.BusinessEntity\bin\Debug\Cubanos.BusinessEntity.pdb
-C:\Users\Alexander\Documents\GitHub\CubanosFinal\SitCubanos\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.csprojResolveAssemblyReference.cache
-C:\Users\Alexander\Documents\GitHub\CubanosFinal\SitCubanos\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.dll
-C:\Users\Alexander\Documents\GitHub\CubanosFinal\SitCubanos\Cubanos.BusinessEntity\obj\Debug\Cubanos.BusinessEntity.pdb

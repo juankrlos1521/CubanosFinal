@@ -14,6 +14,7 @@ namespace Cubanos.Repository.Mapping
         public  AsistenciaMap()
         {
             this.HasKey(a => a.Id);
+            this.Property(a => a.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.None);
 
             this.Property(a => a.Fecha)
                 .IsRequired();

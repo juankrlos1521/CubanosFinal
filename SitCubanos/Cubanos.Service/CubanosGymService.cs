@@ -93,6 +93,11 @@ namespace Cubanos.Service
         {
             return _cubanosGymRepository.ListarAsistenciasPorCurso(cursoId);
         }
+
+        public void UpdateAsistencia(int AsisId, bool asignado)
+        {
+            _cubanosGymRepository.UpdateAsistencia(AsisId, asignado);
+        }
         //............................................................
 
         //Rutina
